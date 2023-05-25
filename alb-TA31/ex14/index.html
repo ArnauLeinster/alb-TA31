@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex14</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/code.js"></script>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="input"><p>
+        <div id="limpieza">
+            <button id="retr" onclick="eliminar()">Retr</button>
+            <button id="CE" onclick="del()">CE</button>
+            <button id="C" onclick="del()">C</button>
+            <p>
+        </div>
+        <div id="botonera">            
+            <button class="numbers" onclick="add('7')">7</button>
+            <button class="numbers" onclick="add('8')">8</button>
+            <button class="numbers" onclick="add('9')">9</button>
+            <button class="numbers" onclick="add('/')">/</button>
+            <button class="numbers" onclick="raiz()">Raiz</button>
+            <p>  
+            <button class="numbers" onclick="add('4')">4</button>
+            <button class="numbers" onclick="add('5')">5</button>
+            <button class="numbers" onclick="add('6')">6</button>
+            <button class="numbers" onclick="add('*')">*</button>
+            <button class="numbers" onclick="add('%')">%</button>
+            <p>
+            <button class="numbers" onclick="add('1')">1</button>
+            <button class="numbers" onclick="add('2')">2</button>
+            <button class="numbers" onclick="add('3')">3</button>
+            <button class="numbers" onclick="add('-')">-</button>
+            <button class="numbers" onclick="">1/x</button> 
+            <p>
+            <button class="numbers" onclick="add('0')">0</button>
+            <button class="numbers" onclick="cambioSigno()">+/-</button>
+            <button class="numbers" onclick="add('.')">.</button>
+            <button class="numbers" onclick="add('+')">+</button>
+            <button class="numbers" onclick="calc()">=</button>       
+        </div>        
+    </div>
+</body>
+</html>

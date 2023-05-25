@@ -1,0 +1,19 @@
+#container{   
+    width: 15%;
+    text-align: center;
+    border: solid 2px black;
+    padding: 20px;
+    margin: auto;
+}
+#input{
+    text-align: left;
+}
+#retr,#C,#CE{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: red;
+}
+.numbers{
+    padding-left: 10px;
+    padding-right: 10px;
+}
